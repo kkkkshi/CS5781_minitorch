@@ -23,7 +23,7 @@ Speed: the tensor ops from Module 2, re-implemented as parallel CPU kernels
 ## Tests
 
 ```
-python run_tests.py
+pytest          # or `pytest -m task3_1` for a single task
 ```
 
 Several tests only run on a GPU machine and are skipped on GitHub's CI; use a

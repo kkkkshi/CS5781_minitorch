@@ -39,7 +39,7 @@ mnist_get_data.sh
 ## Tests
 
 ```
-python run_tests.py
+pytest          # or `pytest -m task4_1` for a single task
 ```
 
 ## Building on Module 3

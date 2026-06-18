@@ -27,7 +27,7 @@ rest of MiniTorch is built on.
 ## Tests
 
 ```
-python run_tests.py
+pytest          # or `pytest -m task0_1` for a single task
 ```
 
 ## Task 0.5
